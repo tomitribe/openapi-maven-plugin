@@ -64,21 +64,6 @@
     </repository>
   </repositories>
 
-  <!-- TODO - Private Repo - Remove when going full OS -->
-  <distributionManagement>
-    <repository>
-      <id>tomitribe.releases.https</id>
-      <name>Tomitribe Release Distribution Repository</name>
-      <url>https://repository.tomitribe.com/service/local/staging/deploy/maven2</url>
-    </repository>
-
-    <snapshotRepository>
-      <id>tomitribe.snapshots.https</id>
-      <name>Tomitribe Development Snapshot Repository</name>
-      <url>https://repository.tomitribe.com/content/repositories/snapshots-tomitribe</url>
-    </snapshotRepository>
-  </distributionManagement>
-
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
